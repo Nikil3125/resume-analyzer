@@ -1,0 +1,12 @@
+    # Node
+    node_modules/
+    backend/uploads/
+    .env
+
+    # Python
+    ml_service/venv/
+    __pycache__/
+    *.pyc
+
+    # Build
+    frontend/dist/
