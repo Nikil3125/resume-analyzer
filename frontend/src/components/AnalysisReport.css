@@ -1,0 +1,89 @@
+.analysis-report {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.report-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #cbd5e1;
+  padding-bottom: 1rem;
+}
+
+.report-section {
+  margin-bottom: 1.5rem;
+}
+
+.report-section h3 {
+  font-size: 1.3rem;
+  color: #334155;
+  margin-bottom: 1rem;
+}
+
+.score-section .score {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2563eb;
+  text-align: center;
+}
+
+.score-section .feedback {
+  text-align: center;
+  font-style: italic;
+  color: #475569;
+}
+
+.details-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details-section li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-section li span {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background: #e2e8f0;
+  color: #475569;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.report-download-btn {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #16a34a;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 1rem;
+}
+
+.report-download-btn:hover {
+  background: #15803d;
+} 
