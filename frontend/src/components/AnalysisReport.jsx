@@ -15,8 +15,8 @@ const AnalysisReport = ({ analysis, onDownload }) => {
   } = analysis;
 
   return (
-    <div className="analysis-report">
-      <h2 className="report-title">Analysis Report</h2>
+    <div className="analysis-report ">
+      <h2 className="report-title ">Analysis Report</h2>
       
       <div className="report-section score-section">
         <h3>Overall Score</h3>
